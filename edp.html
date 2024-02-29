@@ -89,6 +89,10 @@
         display: inline-block;
         margin-top: 3px;
     }
+    .button-group {
+        display: flex;
+        justify-content: space-between;
+    }
 </style>
 </head>
 <body>
@@ -224,10 +228,12 @@
 
 <p class="legend2">
     <span class="bold"><img src="print.png"  width="20" height="20" style= "margin-left: 2.5px"> Print 2nd Semester, 2021-2022 Grade</span>
-    <br>
-    <button class="button" style="margin-left: 3px;">Previous Registration</button>
-    <button class="back">Back</button>
+    <div class="button-group">
+        <button class="button" style="margin-left: 3px;">Previous Registration</button>
+        <button class="back">Back</button>
+    </div>
+    <button type="button">Class list</button>
+    <a href="miniaddusis.html" class="button">Class list</a>
 </p>
-
 </body>
 </html>
