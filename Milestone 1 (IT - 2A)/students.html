@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Grades</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    h2 {
+        color: #4169E1;
+        margin-bottom: 15px;
+        font-weight: bold;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 20px;
+        border: 1px solid white;
+    }
+    table, th, td {
+        padding: 8px;
+        text-align: left;
+        border: 1px solid white;
+    }
+    table.gray {
+        background-color: #f2f2f2;
+
+    }
+    table.gray th, table.gray td {
+        color: black;
+    }
+    .legend {
+        margin-top: 10px;
+    }
+    .legend p {
+        color: gray;
+    }
+    .legend p.failed {
+        color: red;
+    }
+    .line {
+        width: 100%;
+        border-top: 3px solid darkgray; 
+        margin: 20px 0; 
+    }
+    .legend {
+        color: black;
+        margin-left: 30px;
+    }
+    .legend2 {
+        color: black;
+        margin-right: 30px;
+        margin-top: -13px;
+    }
+    .italic {
+        font-style: italic;
+    }
+    .bold {
+        font-weight: bold;
+    }
+    .gray {
+        color: gray;
+    }
+    .red {
+        color: red;
+        font-weight: bold;
+    }
+    .button {
+        background-color: #4169E1;
+        color: white;
+        padding: 5px 10px;
+        border: none;
+        cursor: pointer;
+        text-align: center;
+        display: inline-block;
+        margin-top: 3px;
+    }
+    .back {
+        background-color: #4169E1;
+        color: white;
+        padding: 5px 10px;
+        border: none;
+        cursor: pointer;
+        text-align: center;
+        display: inline-block;
+        margin-top: 3px;
+    }
+</style>
+</head>
+<body>
+<h2>My Grades</h2>
+<table class="gray">
+    <tr>
+        <th>Code:</th>
+        <td>123456</td>
+        <th>Course:</th>
+        <td>BS-IT</td>
+        <th>Year:</th>
+        <td>2</td>
+    </tr>
+    <tr>
+        <th>Student Name:</th>
+        <td>EVENT DRIVEN PROGRAMMING</td>
+        <th>Division:</th>
+        <td>CS</td>
+        <th>Section:</th>
+        <td>IT-2A</td>
+    </tr>
+    <tr>
+        <th>RGC No:</th>
+        <td>123456789</td>
+        <th>Academic Period:</th>
+        <td>2nd Semester, 2022-2023</td>
+        <th>Status:</th>
+        <td>Regular</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <th>Annual QPI:</th>
+        <td>3.900</td>
+        <td></td>
+        <td></td>
+      </tr>
+     
+</table>
+
+<hr class="line">
+
+<table class="gray">
+    <tr>
+        <th style="background-color: #656565; color: white;">SUBJ NO.</th>
+        <th style="background-color: #656565; color: white;">DESCRIPTIVE TITLE</th>
+        <th style="background-color: #656565; color: white; text-align: center;">PRELIM</th>
+        <th style="background-color: #656565; color: white; text-align: center;">MIDTERM</th>
+        <th style="background-color: #656565; color: white; text-align: center;">PRE-FINAL</th>
+        <th style="background-color: #656565; color: white; text-align: center;">FINAL</th>
+        <th style="background-color: #656565; color: white; text-align: center;">UNITS</th>
+        <th style="background-color: #656565; color: white; text-align: center;">CREDIT TO</th>
+    </tr>
+    <tr>
+        <td style="background-color:#ddd">ASF 4204 <br> (16-7109)</td>
+        <td style="background-color:#ddd">SENIOR'S INTEGRATION PROGRAM <br> (*1:30P-3:00P F505 Sa* )</td>
+        <td style="background-color:#ddd"></td>
+        <td style="background-color:#ddd"></td>
+        <td style="background-color:#ddd"></td>
+        <td style="background-color:#ddd"></td>
+        <td style="background-color:#ddd; text-align: center;">2.00</td>
+        <td style="background-color:#ddd"></td>
+    </tr>
+    <tr>
+        <td>CS 4253 <br> (4-321)</td>
+        <td>SOCIAL ISSUES AND PROFESSIONAL PRACTICE <br> (*9:00A-12:00P B200 Sa* )</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td style="text-align: center">3.00</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td style="background-color:#ddd">CS 4256 <br> (4-312)</td>
+        <td style="background-color:#ddd">CS ELECTIVE 4 <br> (*11:10A-12:40P F607B TTh* 1:000P-3:00P F607B F* )</td>
+        <td style="background-color:#ddd"></td>
+        <td style="background-color:#ddd"></td>
+        <td style="background-color:#ddd"></td>
+        <td style="background-color:#ddd"></td>
+        <td style="background-color:#ddd; text-align: center;">3.00</td>
+        <td style="background-color:#ddd"></td>
+    </tr>
+    <tr>
+        <td>CS 4257 <br> (4-319)</td>
+        <td>ARCHITECTURE AND ORGANIZATION <br> (*1:30P-3:00P RTBA MW* )</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td style="text-align: center">3.00</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td style="background-color:#ddd">IT 4258 <br> (4-320)</td>
+        <td style="background-color:#ddd">INFORMATION ASSURANCE AND SECURITY 1 <br> (*5:40P-8:10P F612 TTh* )</td>
+        <td style="background-color:#ddd"></td>
+        <td style="background-color:#ddd"></td>
+        <td style="background-color:#ddd"></td>
+        <td style="background-color:#ddd"></td>
+        <td style="background-color:#ddd; text-align: center;">3.00</td>
+        <td style="background-color:#ddd"></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td style="text-align: right"><strong>Quality Point Index (Q.P.I.) 
+        <br> or Weighted Percentage Average (W.P.A.) = </td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+
+<p class="Legends">
+    <span>Legend:</span>
+    <br>
+</p>
+
+<p class="legend">
+    <span class="black"> • <span class="italic gray"> n/a (not available) </span> - <span class="black">Please see finance office.</span><br>
+    <span class="black">• <span class="italic gray"> GRADE </span> - <span class="black">Not yet verified</span><br>
+    <span class="black">• <span class="red"> GRADE </span> - Failed<br>
+    <span class="bold">• GRADE</span> - Passed<br>
+    <span> • <img src="lec.png" width="25" height="20" style= "margin-left: 5px"> - You have a pending lecture evaluation for this subject.</span>
+    <br>
+    <span> • <img src="lab.png" width="20" height="20" style= "margin-left: 2.5px"> - You have a pending laboratory evaluation for this subject.</span>
+</p>
+
+<hr class="line">
+
+<p class="legend2">
+    <span class="bold"><img src="print.png"  width="20" height="20" style= "margin-left: 2.5px"> Print 2nd Semester, 2021-2022 Grade</span>
+    <br>
+    <a href="teachers.html" style="margin-left: 3px;">
+    <button class="button">Submit Grades</button></a>
+</p>
+</body>
+</html>
