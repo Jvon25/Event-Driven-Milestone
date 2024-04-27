@@ -23,44 +23,7 @@
         
         <h2 class="text-4xl font-extrabold text-center text-blue-900 mb-6">Class <span class="text-blue-700">List</span></h2>
 
-
-        <table class="table-auto bg-gray-200 w-full mb-6">
-            <tr>
-                <th class="border border-white px-4 py-2">Code/Subject:</th>
-                <td class="border border-white px-4 py-2">EVENT DRIVEN PROGRAMMING</td>
-            </tr>
-            <tr>
-                <th class="border border-white px-4 py-2">Schedule :</th>
-                <td class="border border-white px-4 py-2">*2:05P-4:35P F610 TTh*</td>
-            </tr>
-            <tr>
-                <th class="border border-white px-4 py-2">Academic Period:</th>
-                <td class="border border-white px-4 py-2">2nd Semester 2023-2024</td>
-            </tr>
-            <tr>
-                <th class="border border-white px-4 py-2">Grading Period:</th>
-                <td class="border border-white px-4 py-2">Midterm</td>
-            </tr>
-        </table>
-
-        <hr class="my-8">
-
-        <h3 class="text-xl font-bold text-green-800">Grade Encoding Guidelines</h3>
-        <ul class="list-disc list-inside mb-6">
-            <li>Grades in the NEW Grading System must be encoded as A,B+,B,C+,C,D,F,FD,WP.</li>
-            <li>Non FYDP Grades in the OLD Grading System must be from 65 to 100</li>
-            <li>FYDP Grades in the NEW Grading System must be encoded as A,B+,B,C+,C,D,F,FD,WP.</li>
-            <li>FYDP Grades in the OLD Grading System must be encoded as O - Outstanding, HS - Highly Satisfactory,
-                S - Satisfactory, MS - Moderately Satisfactory, F - Fair, P - Poor.</li>
-            <li>NE Grades will not be accepted. Students who have not taken exams must be provided the minimum grade.
-                After the exam has been taken, the teacher should file a grade correction form at the Registrar's Office.
-            </li>
-            <li>Select AUD for Audit students.</li>
-        </ul>
-
-        <hr class="my-8">
-
-        <table class="table-auto bg-gray-200 w-full">
+        <table class="table-auto bg-gray-200 w-full" id="student-table">
             <tr class="bg-gray-700 text-white">
                 <th class="bg-gray-600 text-white px-4 py-2">CODE</th>
                 <th class="bg-gray-600 text-white px-4 py-2">STUDENT NAME</th>
@@ -70,157 +33,6 @@
                 <th class="bg-gray-600 text-white px-4 py-2 text-center">ACAD. STATUS</th>
                 <th class="bg-gray-600 text-white px-4 py-2 text-center">YR. OF ENTRY</th>
                 <th class="bg-gray-600 text-white px-4 py-2 text-center">ENTRY YR. LVL</th>
-            </tr>
-
-            <tr class="bg-gray-300 hover:bg-gray-400">
-                <td class="px-4 py-2">121212</td>
-                <td class="px-4 py-2 hover-float">FAVIS, MARVIN</td>
-                <td class="px-4 py-2">
-                    <select class="w-full border py-1 px-2 rounded">
-                        <option></option>
-                        <option>A</option>
-                        <option>B+</option>
-                        <option>C</option>
-                        <option>C+</option>
-                        <option>D</option>
-                        <option>F</option>
-                    </select>
-                </td>
-                <td class="px-4 py-2">NEW</td>
-                <td class="px-4 py-2 text-center">2</td>
-                <td class="px-4 py-2 text-center">Regular</td>
-                <td class="px-4 py-2 text-center">2022</td>
-                <td class="px-4 py-2 text-center">1</td>
-            </tr>
-
-            <!-- Add more rows as needed -->
-
-            <tr class="bg-gray-300 hover:bg-gray-400">
-                <td class="px-4 py-2">131313</td>
-                <td class="px-4 py-2 hover-float">TRADES, TORI</td>
-                <td class="px-4 py-2">
-                    <select class="w-full border py-1 px-2 rounded">
-                        <option></option>
-                        <option>A</option>
-                        <option>B+</option>
-                        <option>C</option>
-                        <option>C+</option>
-                        <option>D</option>
-                        <option>F</option>
-                    </select>
-                </td>
-                <td class="px-4 py-2">NEW</td>
-                <td class="px-4 py-2 text-center">2</td>
-                <td class="px-4 py-2 text-center">Regular</td>
-                <td class="px-4 py-2 text-center">2022</td>
-                <td class="px-4 py-2 text-center">1</td>
-            </tr>
-
-            <!-- Add more rows as needed -->
-
-            <tr class="bg-gray-300 hover:bg-gray-400">
-                <td class="px-4 py-2">131313</td>
-                <td class="px-4 py-2 hover-float">BERDIN, JVON</td>
-                <td class="px-4 py-2">
-                    <select class="w-full border py-1 px-2 rounded">
-                        <option></option>
-                        <option>A</option>
-                        <option>B+</option>
-                        <option>C</option>
-                        <option>C+</option>
-                        <option>D</option>
-                        <option>F</option>
-                    </select>
-                </td>
-                <td class="px-4 py-2">NEW</td>
-                <td class="px-4 py-2 text-center">2</td>
-                <td class="px-4 py-2 text-center">Regular</td>
-                <td class="px-4 py-2 text-center">2021</td>
-                <td class="px-4 py-2 text-center">2</td>
-            </tr>
-
-            <tr class="bg-gray-300 hover:bg-gray-400">
-                <td class="px-4 py-2">131313</td>
-                <td class="px-4 py-2 hover-float">VILLARBA, JAN MARIE</td>
-                <td class="px-4 py-2">
-                    <select class="w-full border py-1 px-2 rounded">
-                        <option></option>
-                        <option>A</option>
-                        <option>B+</option>
-                        <option>C</option>
-                        <option>C+</option>
-                        <option>D</option>
-                        <option>F</option>
-                    </select>
-                </td>
-                <td class="px-4 py-2">NEW</td>
-                <td class="px-4 py-2 text-center">2</td>
-                <td class="px-4 py-2 text-center">Regular</td>
-                <td class="px-4 py-2 text-center">2021</td>
-                <td class="px-4 py-2 text-center">2</td>
-            </tr>
-
-            <tr class="bg-gray-300 hover:bg-gray-400">
-                <td class="px-4 py-2">131313</td>
-                <td class="px-4 py-2 hover-float">KAIZEN, ZI</td>
-                <td class="px-4 py-2">
-                    <select class="w-full border py-1 px-2 rounded">
-                        <option></option>
-                        <option>A</option>
-                        <option>B+</option>
-                        <option>C</option>
-                        <option>C+</option>
-                        <option>D</option>
-                        <option>F</option>
-                    </select>
-                </td>
-                <td class="px-4 py-2">NEW</td>
-                <td class="px-4 py-2 text-center">2</td>
-                <td class="px-4 py-2 text-center">Regular</td>
-                <td class="px-4 py-2 text-center">2023</td>
-                <td class="px-4 py-2 text-center">3</td>
-            </tr>
-
-            <tr class="bg-gray-300 hover:bg-gray-400">
-                <td class="px-4 py-2">131313</td>
-                <td class="px-4 py-2 hover-float">KAIZEN, AB</td>
-                <td class="px-4 py-2">
-                    <select class="w-full border py-1 px-2 rounded">
-                        <option></option>
-                        <option>A</option>
-                        <option>B+</option>
-                        <option>C</option>
-                        <option>C+</option>
-                        <option>D</option>
-                        <option>F</option>
-                    </select>
-                </td>
-                <td class="px-4 py-2">NEW</td>
-                <td class="px-4 py-2 text-center">2</td>
-                <td class="px-4 py-2 text-center">Regular</td>
-                <td class="px-4 py-2 text-center">2021</td>
-                <td class="px-4 py-2 text-center">1</td>
-            </tr>
-
-            <tr class="bg-gray-300 hover:bg-gray-400">
-                <td class="px-4 py-2">131313</td>
-                <td class="px-4 py-2 hover-float">TRADER, AMBITIOUS</td>
-                <td class="px-4 py-2">
-                    <select class="w-full border py-1 px-2 rounded">
-                        <option></option>
-                        <option>A</option>
-                        <option>B+</option>
-                        <option>C</option>
-                        <option>C+</option>
-                        <option>D</option>
-                        <option>F</option>
-                    </select>
-                </td>
-                <td class="px-4 py-2">NEW</td>
-                <td class="px-4 py-2 text-center">2</td>
-                <td class="px-4 py-2 text-center">Regular</td>
-                <td class="px-4 py-2 text-center">2023</td>
-                <td class="px-4 py-2 text-center">2</td>
             </tr>
         </table>
 
@@ -232,6 +44,8 @@
         </a>
 
     </div>
+
+    <script src="grades.js"></script>
 
 </body>
 
